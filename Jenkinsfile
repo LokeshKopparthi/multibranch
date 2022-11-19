@@ -1,6 +1,8 @@
 pipeline {
    agent {
-      label "Lokesh"
+      node{
+      label 'Lokesh'
+   }
    }
    stages {
        stage('Build Code') {
