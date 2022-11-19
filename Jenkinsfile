@@ -1,5 +1,7 @@
 pipeline {
-   agent any
+   agent {
+      label "Lokesh"
+   }
    stages {
        stage('Build Code') {
            steps {
